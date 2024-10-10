@@ -1,0 +1,98 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.question-section {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.options-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options-section button {
+    margin: 10px 0;
+    padding: 12px 20px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.options-section button:hover {
+    background-color: #add8e6;
+}
+
+.options-section button.selected {
+    background-color: black;
+    color: white;
+}
+
+.reveal-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.reveal-section img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.reveal-section p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.reveal-section button {
+    padding: 12px 25px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reveal-section button:hover {
+    background-color: #add8e6;
+}
+
+.score-section {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.correct-answer {
+    color: green;
+}
